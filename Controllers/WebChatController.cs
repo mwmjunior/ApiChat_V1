@@ -17,7 +17,6 @@ namespace WebChat.Controllers
             _db = db;
         }
 
-        // Endpoint para enviar uma mensagem em uma conversa existente
         [HttpPost("send-message")]
         public IActionResult SendMessage([FromBody] MessageDto messageDto)
         {
@@ -33,10 +32,14 @@ namespace WebChat.Controllers
                 return NotFound("Conversa não encontrada.");
             }
 
-            // Aqui você poderia adicionar lógica para armazenar a mensagem na conversa, se necessário
-            // Por exemplo: conversation.Messages.Add(new Message { Content = messageDto.Content, SenderId = messageDto.SenderId });
+            // Armazena a mensagem na conversa
+            conversation.Messages.Add(new Message
+            {
+                Content = messageDto.Content,
+                SenderId = messageDto.SenderId
+            });
 
-            // Simula o envio da mensagem para todos os participantes (lógica a ser adaptada para envio real)
+            // Notifica os participantes (lógica a ser adaptada para envio real)
             foreach (var participant in conversation.Participants)
             {
                 // Lógica para notificar os participantes (via SignalR, por exemplo)
@@ -44,6 +47,7 @@ namespace WebChat.Controllers
 
             return Ok("Mensagem enviada com sucesso.");
         }
+
 
         // Endpoint para obter todas as conversas de um usuário
         [HttpGet("conversations/{userId}")]
@@ -67,7 +71,7 @@ namespace WebChat.Controllers
         {
             if (_db.Conversations.TryGetValue(conversationId, out var conversation))
             {
-                return Ok(conversation);
+                return Ok(conversation);  // Isso agora incluirá as mensagens
             }
 
             return NotFound("Conversa não encontrada.");

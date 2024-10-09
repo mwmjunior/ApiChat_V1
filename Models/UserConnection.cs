@@ -6,6 +6,14 @@ namespace WebChat.Models
     {
         public string Id { get; set; } = Guid.NewGuid().ToString();  // ID único para a conversa
         public List<string> Participants { get; set; } = new List<string>();  // IDs dos participantes
+        public List<Message> Messages { get; set; } = new List<Message>();  // Adiciona a lista de mensagens
+    }
+
+    public class Message
+    {
+        public string SenderId { get; set; }  // ID do remetente
+        public string Content { get; set; }    // Conteúdo da mensagem
+        public DateTime Timestamp { get; set; } = DateTime.UtcNow;  // Timestamp da mensagem
     }
 
     public class UserConnection

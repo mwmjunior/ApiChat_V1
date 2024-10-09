@@ -3,24 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\836574281\\Desktop\\ApiChat_V1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{65AA4602-3B09-4EE4-AB88-1E630F22D02A}|WebChat.csproj|c:\\users\\836574281\\desktop\\apichat_v1\\controllers\\webchatcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{65AA4602-3B09-4EE4-AB88-1E630F22D02A}|WebChat.csproj|solutionrelative:controllers\\webchatcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{65AA4602-3B09-4EE4-AB88-1E630F22D02A}|WebChat.csproj|c:\\users\\836574281\\desktop\\apichat_v1\\models\\userconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65AA4602-3B09-4EE4-AB88-1E630F22D02A}|WebChat.csproj|solutionrelative:models\\userconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{65AA4602-3B09-4EE4-AB88-1E630F22D02A}|WebChat.csproj|c:\\users\\836574281\\desktop\\apichat_v1\\hubs\\chathub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{65AA4602-3B09-4EE4-AB88-1E630F22D02A}|WebChat.csproj|solutionrelative:hubs\\chathub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{65AA4602-3B09-4EE4-AB88-1E630F22D02A}|WebChat.csproj|c:\\users\\836574281\\desktop\\apichat_v1\\models\\userconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{65AA4602-3B09-4EE4-AB88-1E630F22D02A}|WebChat.csproj|solutionrelative:models\\userconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{65AA4602-3B09-4EE4-AB88-1E630F22D02A}|WebChat.csproj|c:\\users\\836574281\\desktop\\apichat_v1\\dataservice\\inmemorydb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{65AA4602-3B09-4EE4-AB88-1E630F22D02A}|WebChat.csproj|solutionrelative:dataservice\\inmemorydb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{65AA4602-3B09-4EE4-AB88-1E630F22D02A}|WebChat.csproj|c:\\users\\836574281\\desktop\\apichat_v1\\controllers\\webchatcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65AA4602-3B09-4EE4-AB88-1E630F22D02A}|WebChat.csproj|solutionrelative:controllers\\webchatcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{65AA4602-3B09-4EE4-AB88-1E630F22D02A}|WebChat.csproj|c:\\users\\836574281\\desktop\\apichat_v1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{65AA4602-3B09-4EE4-AB88-1E630F22D02A}|WebChat.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65AA4602-3B09-4EE4-AB88-1E630F22D02A}|WebChat.csproj|c:\\users\\836574281\\desktop\\apichat_v1\\dataservice\\inmemorydb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65AA4602-3B09-4EE4-AB88-1E630F22D02A}|WebChat.csproj|solutionrelative:dataservice\\inmemorydb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{65AA4602-3B09-4EE4-AB88-1E630F22D02A}|WebChat.csproj|c:\\users\\836574281\\desktop\\apichat_v1\\img\\imagem colada.png||{177559E0-D141-11D0-92DF-00A0C9138C45}",
@@ -50,17 +50,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "WebChatController.cs",
               "DocumentMoniker": "C:\\Users\\836574281\\Desktop\\ApiChat_V1\\Controllers\\WebChatController.cs",
               "RelativeDocumentMoniker": "Controllers\\WebChatController.cs",
               "ToolTip": "C:\\Users\\836574281\\Desktop\\ApiChat_V1\\Controllers\\WebChatController.cs",
               "RelativeToolTip": "Controllers\\WebChatController.cs",
-              "ViewState": "AQIAAEwAAAAAAAAAAAAowG0AAAAAAAAA",
+              "ViewState": "AQIAADgAAAAAAAAAAAAiwE4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-08T11:57:48.334Z",
               "EditorCaption": ""
@@ -91,13 +91,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "UserConnection.cs",
               "DocumentMoniker": "C:\\Users\\836574281\\Desktop\\ApiChat_V1\\Models\\UserConnection.cs",
               "RelativeDocumentMoniker": "Models\\UserConnection.cs",
               "ToolTip": "C:\\Users\\836574281\\Desktop\\ApiChat_V1\\Models\\UserConnection.cs",
               "RelativeToolTip": "Models\\UserConnection.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAABEAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-08T11:46:35.695Z",
               "EditorCaption": ""
@@ -110,26 +110,27 @@
               "RelativeDocumentMoniker": "Hubs\\ChatHub.cs",
               "ToolTip": "C:\\Users\\836574281\\Desktop\\ApiChat_V1\\Hubs\\ChatHub.cs",
               "RelativeToolTip": "Hubs\\ChatHub.cs",
-              "ViewState": "AQIAACIAAAAAAAAAAAAowEMAAAAAAAAA",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAQwAgAAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-08T11:45:29.795Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\836574281\\Desktop\\ApiChat_V1\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\836574281\\Desktop\\ApiChat_V1\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACsAAAAdAAAA",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAACsAAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-08T11:28:34.35Z"
+              "WhenOpened": "2024-10-08T11:28:34.35Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "InMemoryDb.cs",
               "DocumentMoniker": "C:\\Users\\836574281\\Desktop\\ApiChat_V1\\DataService\\InMemoryDb.cs",
               "RelativeDocumentMoniker": "DataService\\InMemoryDb.cs",
@@ -137,7 +138,8 @@
               "RelativeToolTip": "DataService\\InMemoryDb.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-08T11:25:10.187Z"
+              "WhenOpened": "2024-10-08T11:25:10.187Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
