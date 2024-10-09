@@ -17,6 +17,34 @@ namespace WebChat.Controllers
             _db = db;
         }
 
+        // Endpoint para enviar uma mensagem em uma conversa existente
+        [HttpPost("send-message")]
+        public IActionResult SendMessage([FromBody] MessageDto messageDto)
+        {
+            // Verifica se o DTO contém os dados necessários
+            if (messageDto == null || string.IsNullOrEmpty(messageDto.ConversationId) || string.IsNullOrEmpty(messageDto.Content))
+            {
+                return BadRequest("Dados da mensagem inválidos.");
+            }
+
+            // Busca a conversa no banco de dados em memória
+            if (!_db.Conversations.TryGetValue(messageDto.ConversationId, out var conversation))
+            {
+                return NotFound("Conversa não encontrada.");
+            }
+
+            // Aqui você poderia adicionar lógica para armazenar a mensagem na conversa, se necessário
+            // Por exemplo: conversation.Messages.Add(new Message { Content = messageDto.Content, SenderId = messageDto.SenderId });
+
+            // Simula o envio da mensagem para todos os participantes (lógica a ser adaptada para envio real)
+            foreach (var participant in conversation.Participants)
+            {
+                // Lógica para notificar os participantes (via SignalR, por exemplo)
+            }
+
+            return Ok("Mensagem enviada com sucesso.");
+        }
+
         // Endpoint para obter todas as conversas de um usuário
         [HttpGet("conversations/{userId}")]
         public ActionResult<IEnumerable<Conversation>> GetUserConversations(string userId)
@@ -33,7 +61,7 @@ namespace WebChat.Controllers
             return Ok(conversations);
         }
 
-        // Novo método para buscar uma conversa específica pelo ID único
+        // Método para buscar uma conversa específica pelo ID único
         [HttpGet("conversation/{conversationId}")]
         public ActionResult<Conversation> GetConversationById(string conversationId)
         {
@@ -69,5 +97,13 @@ namespace WebChat.Controllers
 
             return CreatedAtAction(nameof(GetConversationById), new { conversationId = conversation.Id }, conversation);
         }
+    }
+
+    // DTO para enviar mensagens
+    public class MessageDto
+    {
+        public string ConversationId { get; set; }  // ID da conversa
+        public string SenderId { get; set; }        // ID do remetente
+        public string Content { get; set; }         // Conteúdo da mensagem
     }
 }
